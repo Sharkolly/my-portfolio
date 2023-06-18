@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./intro.css";
 import TypewriterComponent from "typewriter-effect";
-import { Link } from "react-router-dom";
 import Svg from "../Nav/menu-outline.svg";
 import { easeIn, easeInOut, motion, spring } from "framer-motion";
 
