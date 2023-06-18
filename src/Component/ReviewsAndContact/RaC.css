@@ -1,0 +1,92 @@
+section.contact {
+  background: var(--Intro-bgColor--);
+  margin-top: 3rem;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+}
+
+section.contact div.Contact {
+  width: 80%;
+  margin-inline: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.contact-title {
+  width: 45%;
+}
+
+div.contact-title h1 {
+  font-weight: bolder;
+  font-size: 1.7rem;
+  margin-bottom: 0.3em;
+  word-spacing: 2px;
+  letter-spacing: 2.2px;
+}
+
+div.contact-title p {
+  opacity: 0.6;
+  font-size: 0.6rem;
+}
+
+button {
+  background: var(--contact-btn--);
+  text-decoration: none;
+  padding: 0.75em 1.6em;
+  border-radius: 17px;
+  outline: none;
+  font-size: 0.8rem;
+  opacity: 0.88;
+  border: none;
+}
+
+button a {
+  color: var(--white--);
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+@media (max-width: 770px) {
+  section.contact div.Contact {
+    width: 85%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 1em;
+  }
+  div.contact-title {
+    width: 90%;
+  }
+  div.contact-title h1 {
+    font-weight: bolder;
+    font-size: 1.4rem;
+    margin-bottom: 0.3em;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  div.contact-title p {
+    font-size: 0.55rem;
+    text-align: center;
+  }
+  div.contact-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=RaC.css.map */

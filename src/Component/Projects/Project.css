@@ -1,0 +1,131 @@
+div.Project {
+  margin-top: 2.8em;
+  width: 88%;
+  margin-inline: auto;
+}
+
+div.title {
+  text-align: center;
+}
+
+div.title h1 {
+  font-size: 1.5rem;
+}
+
+div.title p {
+  opacity: 0.6;
+  font-size: 0.6rem;
+}
+
+div.projects-lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1.3rem;
+  margin-top: 1em;
+  opacity: 0.5;
+}
+
+div.projects-lists div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 300px;
+          flex: 1 1 300px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+div.projects-lists img.Projects {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: left;
+     object-position: left;
+  height: 250px;
+  opacity: 0.85;
+}
+
+div.projects-lists img.Projects:hover {
+  opacity: 0.65;
+  scale: 1.02;
+}
+
+div.projects-lists h2 {
+  margin: 0;
+  margin-top: 0.2em;
+}
+
+div.projects-lists p {
+  font-size: 0.6rem;
+  font-weight: 100;
+  padding-inline: 0.7rem;
+  text-align: justify;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+  opacity: 0.65;
+}
+
+div.projects-lists div.btnn {
+  margin-top: 1.3em;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 1.7em;
+}
+
+div.projects-lists button {
+  padding-block: 0.5em;
+  font-size: 0.7em;
+  font-weight: normal;
+  border-radius: 7px;
+  background: var(--contact-small-title--);
+}
+
+div.projects-lists button:hover {
+  scale: 1.02;
+  background: var(--logo-blue-shadow--);
+  color: white;
+}
+
+div.projects-lists button:active {
+  scale: 0.96;
+}
+
+div.projects-lists a:hover {
+  text-decoration: none;
+}
+
+div.projects-lists div.first-project:hover,
+div.projects-lists div.second-project:hover,
+div.projects-lists div.third-project:hover,
+div.projects-lists div.fourth-project:hover,
+div.projects-lists div.fifth-project:hover,
+div.projects-lists div.sixth-project:hover,
+div.projects-lists div.seventh-project:hover {
+  -webkit-box-shadow: 0px 0px 6px 2px var(--logo-blue-shadow--);
+          box-shadow: 0px 0px 6px 2px var(--logo-blue-shadow--);
+}
+
+@media (max-width: 770px) {
+  div.Project {
+    width: 93%;
+  }
+}
+
+@media (max-width: 1150px) {
+  div.Project {
+    width: 94%;
+  }
+}
+
+@media (max-width: 1380px) {
+  div.Project {
+    width: 91%;
+  }
+}
+/*# sourceMappingURL=Project.css.map */

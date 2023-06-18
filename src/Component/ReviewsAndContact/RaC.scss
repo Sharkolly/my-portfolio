@@ -1,0 +1,83 @@
+section.contact {
+  background: var(--Intro-bgColor--);
+  margin-top: 3rem;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+
+  div.Contact {
+    width: 80%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+div.contact-title {
+  width: 45%;
+
+  h1 {
+    font-weight: bolder;
+    font-size: 1.7rem;
+    margin-bottom: 0.3em;
+    word-spacing: 2px;
+    letter-spacing: 2.2px;
+  }
+  p {
+    opacity: 0.6;
+    font-size: 0.6rem;
+  }
+}
+
+div.contact-btn {
+ 
+}
+button {
+  background: var(--contact-btn--);
+  text-decoration: none;
+  padding: 0.75em 1.6em;
+  border-radius: 17px;
+  outline: none;
+  font-size: 0.8rem;
+  opacity: 0.88;
+  border: none;
+
+  a {
+    color: var(--white--);
+    text-decoration: none;
+    font-size: 1rem;
+  }
+ 
+}
+
+@media (max-width: 770px) {
+  section.contact {
+    div.Contact {
+      width: 85%;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1em;
+    }
+  }
+
+  div.contact-title {
+    width: 90%;
+
+    h1 {
+      font-weight: bolder;
+      font-size: 1.4rem;
+      margin-bottom: 0.3em;
+      word-spacing: 1px;
+      letter-spacing: 1px;
+      text-align: center;
+    }
+    p {
+      font-size: 0.55rem;
+      text-align: center;
+    }
+  }
+  div.contact-btn {
+   display: flex;
+   justify-content: center;     
+   width: 100%;
+  }
+}

@@ -1,0 +1,19 @@
+footer {
+  margin-top: 2em;
+  width: 87%;
+  margin-inline: auto;
+}
+
+@media (max-width: 770px) {
+  div.logo {
+    font-size: .7rem;
+  }
+  div.logo svg {
+    width: 20px;
+    height: 20px;
+  }
+  footer.Footer {
+    width: 96%;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */

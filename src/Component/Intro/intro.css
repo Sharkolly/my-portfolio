@@ -1,0 +1,263 @@
+@font-face {
+  font-family: poppins;
+}
+
+header {
+  font-family: Poppins-Semibold;
+  position: relative;
+  background: var(--Intro-bgColor--);
+  z-index: 100;
+}
+
+div.header {
+  width: 88%;
+  padding-top: 0.5rem;
+  margin-inline: auto;
+  padding-bottom: 2.5em;
+  position: relative;
+}
+
+img.menu {
+  display: none;
+}
+
+div.logo-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.intro {
+  margin-top: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div.Profile {
+  width: 60%;
+  margin-top: 2.5em;
+}
+
+div.Profile h1 {
+  font-size: 2rem;
+  background: linear-gradient(45deg, #005eff, #04d1ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  margin-bottom: 0.5em;
+}
+
+div.Profile p {
+  font-size: 12px;
+  color: var(--white--);
+  opacity: 0.5;
+  font-weight: lighter;
+}
+
+div.Profile-Image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+section.CV {
+  margin-top: 1.5em;
+}
+
+section.CV button {
+  background: var(--download-cv-blue--);
+  text-decoration: none;
+  padding: 0.75em 0.8em;
+  border-radius: 5px;
+  outline: none;
+  font-size: 0.8rem;
+  opacity: 0.88;
+  border: none;
+}
+
+section.CV button a {
+  color: var(--white--);
+  text-decoration: none;
+}
+
+div.social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.5em;
+  position: fixed;
+  top: 20%;
+  left: 2%;
+}
+
+div.social-media svg {
+  height: 20px;
+  width: 20px;
+}
+
+div.down-arrow {
+  position: absolute;
+  top: 92%;
+  right: 5%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1380px) {
+  div.header {
+    width: 91%;
+  }
+  div.Profile {
+    width: 58%;
+    margin-top: 2.5em;
+  }
+  div.social-media {
+    position: fixed;
+    top: 20%;
+    left: 93%;
+  }
+  div.social-media svg {
+    height: 19px;
+    width: 19px;
+  }
+}
+
+@media (max-width: 1150px) {
+  div.header {
+    width: 94%;
+  }
+  div.Profile {
+    width: 55%;
+    margin-top: 2.5em;
+  }
+  div.Profile h1 {
+    font-size: 1.7rem;
+  }
+  div.Profile p {
+    font-size: 9px;
+  }
+  div.Profile-Image img {
+    width: 250px;
+    height: 250px;
+  }
+  div.social-media svg {
+    height: 18px;
+    width: 18px;
+    margin-top: 0.5em;
+  }
+}
+
+@media (max-width: 770px) {
+  div.logo svg {
+    width: 20px;
+    height: 20px;
+  }
+  div.logo h2 {
+    font-size: 1rem;
+  }
+  div.header-logo-links {
+    position: relative;
+  }
+  img.menu {
+    display: block;
+  }
+  nav {
+    position: fixed;
+    width: 50%;
+    height: 100vh;
+    z-index: 9999;
+    background: var(--download-cv-blue--);
+    top: 0;
+    left: 50%;
+  }
+  nav svg {
+    fill: white;
+    padding: 0.5em 0.3em;
+    display: block;
+  }
+  nav ul {
+    display: block;
+  }
+  nav li {
+    padding: 2.2rem 2.5rem;
+  }
+  nav a {
+    font-size: 0.9rem;
+  }
+  svg.menu {
+    fill: var(--download-cv-blue--);
+    height: 40px;
+    width: 40px;
+  }
+  section.intro {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    width: 100%;
+  }
+  div.Profile-Image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  div.header {
+    width: 93%;
+    padding-top: 0.5rem;
+    padding-bottom: 2.5em;
+  }
+  div.Profile {
+    width: 96%;
+    text-align: center;
+  }
+  div.Profile h1 {
+    font-size: 1.55rem;
+  }
+  div.Profile h2 {
+    font-size: 1.25rem;
+  }
+  div.Profile p {
+    font-size: 0.6rem;
+    width: 100%;
+  }
+  div.social-media {
+    position: absolute;
+  }
+  div.social-media svg {
+    height: 17px;
+    width: 17px;
+  }
+}
+
+@media (max-width: 330px) {
+  div.Profile {
+    width: 96%;
+  }
+  div.Profile h1 {
+    font-size: 1.4rem;
+  }
+  div.Profile h2 {
+    font-size: 1.15rem;
+  }
+  div.Profile p {
+    font-size: 0.53rem;
+  }
+}
+/*# sourceMappingURL=intro.css.map */
