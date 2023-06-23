@@ -76,7 +76,7 @@ const Projects = () => {
                         <h2 style={{ textAlign: 'center' }}>Task App</h2>
                         <p>A Task app which is designed to help users to organize, track, and manage their tasks, assignments, or activities.It helps users to create,priortize, and monitor tasks to enhance productivity and ensure timely completion of projects or personal goals </p>
                         <div className="btnn">
-                            <button><a href="https://github.com/Sharkolly" target='_blank'>Code</a></button>
+                            <button><a href="https://github.com/Sharkolly/Task-app" target='_blank'>Code</a></button>
                             <button><a href="#">Live</a></button>
                         </div>
                     </div>
