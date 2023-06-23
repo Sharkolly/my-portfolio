@@ -67,7 +67,7 @@ const Skills = () => {
 
             <i>WEB DEVELOPMENT</i>
             <p>
-            Web development is a dynamic field that empowers businesses and individuals to create immersive digital experiences. With expertise in front-end and back-end development, I craft visually appealing and responsive websites using HTML, CSS, JavaScript, and modern frameworks like React and Angular. I also possess skills in database management, version control, and deployment, ensuring efficient data storage, code collaboration, and seamless application deployment. With a passion for continuous learning, I stay up-to-date with industry trends to deliver innovative solutions that captivate users and drive success in the ever-evolving online landscape.
+            Web development is a dynamic field that empowers businesses and individuals to create immersive digital experiences. With expertise in front-end and back-end development, I craft visually appealing and responsive websites using HTML, CSS, JavaScript, Node, GitHub and modern frameworks like React and Expressjs. I also possess skills in database management, version control, and deployment, ensuring efficient data storage, code collaboration, and seamless application deployment. With a passion for continuous learning, I stay up-to-date with industry trends to deliver innovative solutions that captivate users and drive success in the ever-evolving online landscape.
             </p>
           </motion.div>
 
