@@ -3,8 +3,8 @@ import './Project.css'
 import calculator from '../Pictures/Calculator.png'
 import crypto from '../Pictures/Crypto.png'
 import ExpenseTracker from '../Pictures/Expense_tracker.png'
-import Geutebruck from '../Pictures/Geutebruck.png'
-import GPassword from '../Pictures/Gpassword.png'
+import Ecommerce from '../Pictures/ecommerce.png'
+import Livescore from '../Pictures/livescore(2).png';
 import Blog from '../Pictures/Reactjs_Blog.png'
 import TaskLists from '../Pictures/Task Lists.png'
 import { motion, transform } from 'framer-motion'
@@ -35,7 +35,17 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="second-project">
-                        <img src={ExpenseTracker} alt="" className='Projects' />
+                        <img src={Ecommerce} alt="Ecommerce Image" className='Projects' />
+                        <h2 style={{ textAlign: 'center' }}>E-Commerce Application</h2>
+                        <p>
+                            A fully responsive eCommerce storefront built to offer a seamless online shopping experience. This project features a clean and modern UI, efficient navigation, and secure checkout, allowing users to browse, add items to their cart, and make purchases with ease. </p>
+                        <div className="btnn">
+                            <button><a href="hhttps://github.com/Sharkolly/e-commerce" target='_blank'>Code</a></button>
+                            <button><a href="http://e-commerce-weld-kappa.vercel.app/">Live</a></button>
+                        </div>
+                    </div>
+                    <div className="third-project">
+                        <img src={ExpenseTracker} alt="Image" className='Projects' />
 
                         <h2 style={{ textAlign: 'center' }}>Expense Tracker</h2>
                         <p>The Expense Tracker helps individuals or users to keep track of their expenses, monitor spending patterns, and gain insights into their financial habits </p>
@@ -44,40 +54,32 @@ const Projects = () => {
                             <button><a href="https://expense-tracker-bice-three.vercel.app/">Live</a></button>
                         </div>
                     </div>
-                    <div className="third-project">
-                        <img src={Geutebruck} alt="" className='Projects' />
-                        <h2 style={{ textAlign: 'center' }}>GeuteBruck Website</h2>
-                        <p>A Simple Cloned Website with some added Features but replicating its design, layout, content, and functionality that closely resembles the original website </p>
-                        <div className="btnn">
-                            <button><a href="https://github.com/Sharkolly/geutebruck_clone" target='_blank'>Code</a></button>
-                            <button><a href="https://geutebruck-clone.vercel.app/">Live</a></button>
-                        </div>
-                    </div>
                     <div className="fourth-project">
-                        <img src={GPassword} alt="" className='Projects' />
-                        <h2 style={{ textAlign: 'center' }}>Generate Password</h2>
-                        <p>An app that makes the user create password then uses the password to access gallery of photos  </p>
+                        <img src={Livescore} alt="Livescore Image" className='Projects' />
+                        <h2 style={{ textAlign: 'center' }}>Live Sports Score App</h2>
+                        <p>
+                            A Football score application designed to keep users updated on their favorite games with up-to-the-minute scores and match details. Built with a sleek and intuitive interface, this app allows users to follow multiple sports and leagues effortlessly.  </p>
                         <div className="btnn">
-                            <button><a href="https://github.com/Sharkolly/GPassword" target='_blank'>Code</a></button>
-                            <button><a href="https://generate-password-smoky.vercel.app/">Live</a></button>
+                            <button><a href="https://github.com/Sharkolly/livescore" target='_blank'>Code</a></button>
+                            <button><a href="http://livescore-tau.vercel.app/">Live</a></button>
                         </div>
                     </div>
                     <div className="fifth-project">
-                        <img src={calculator} alt="" className='Projects' />
-                        <h2 style={{ textAlign: 'center' }}>Simple Calculator App</h2>
-                        <p>A simple Calculator that is designed to perform basic arithmetic calculations.It allows users to quickly and easily perform mathematical operations like addition, subtraction, multiplication, and division</p>
-                        <div className="btnn">
-                            <button><a href="https://github.com/Sharkolly/simple_calc" target='_blank'>Code</a></button>
-                            <button><a href="https://simple-calc-mu.vercel.app/">Live</a></button>
-                        </div>
-                    </div>
-                    <div className="sixth-project">
                         <img src={TaskLists} alt="" className='Projects' />
                         <h2 style={{ textAlign: 'center' }}>Task App</h2>
                         <p>A Task app which is designed to help users to organize, track, and manage their tasks, assignments, or activities.It helps users to create,priortize, and monitor tasks to enhance productivity and ensure timely completion of projects or personal goals </p>
                         <div className="btnn">
                             <button><a href="https://github.com/Sharkolly/Task-app" target='_blank'>Code</a></button>
                             <button><a href="#">Live</a></button>
+                        </div>
+                    </div>
+                    <div className="sixth-project">
+                        <img src={calculator} alt="" className='Projects' />
+                        <h2 style={{ textAlign: 'center' }}>Simple Calculator App</h2>
+                        <p>A simple Calculator that is designed to perform basic arithmetic calculations.It allows users to quickly and easily perform mathematical operations like addition, subtraction, multiplication, and division</p>
+                        <div className="btnn">
+                            <button><a href="https://github.com/Sharkolly/simple_calc" target='_blank'>Code</a></button>
+                            <button><a href="https://simple-calc-mu.vercel.app/">Live</a></button>
                         </div>
                     </div>
                     <div className="seventh-project">

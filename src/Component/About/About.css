@@ -1,5 +1,5 @@
 section.About {
-  width: 88%;
+  width: 80%;
   margin-inline: auto;
   margin-top: 3rem;
 }
@@ -60,7 +60,8 @@ div.about-me div.hr {
 }
 
 div.about-me p {
-  font-size: 0.64rem;
+  font-size: 0.67rem;
+  text-align: justify;
   color: var(--about-text--);
   margin-top: 0.2rem;
   opacity: 0.8;

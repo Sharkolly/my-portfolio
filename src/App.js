@@ -1,5 +1,5 @@
 import "./App.css";
-import MyPicture from "../src/Component/Pictures/IMG_8907.JPG";
+import MyPicture from "../src/Component/Pictures/photo_2024-11-02_19-09-51.jpg";
 import Intro from "./Component/Intro/Intro";
 import About from "./Component/About/About";
 import Skills from "./Component/Skills/Skills";
