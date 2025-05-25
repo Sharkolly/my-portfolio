@@ -73,16 +73,8 @@ const Projects = () => {
                             <button><a href="#">Live</a></button>
                         </div>
                     </div>
+                    
                     <div className="sixth-project">
-                        <img src={calculator} alt="" className='Projects' />
-                        <h2 style={{ textAlign: 'center' }}>Simple Calculator App</h2>
-                        <p>A simple Calculator that is designed to perform basic arithmetic calculations.It allows users to quickly and easily perform mathematical operations like addition, subtraction, multiplication, and division</p>
-                        <div className="btnn">
-                            <button><a href="https://github.com/Sharkolly/simple_calc" target='_blank'>Code</a></button>
-                            <button><a href="https://simple-calc-mu.vercel.app/">Live</a></button>
-                        </div>
-                    </div>
-                    <div className="seventh-project">
                         <img src={Blog} alt="" className='Projects' />
                         <h2 style={{ textAlign: 'center' }}>Blog App</h2>
                         <p>The React blog app is a simple application that allows users to create and view blog posts. It provides a user-friendly interface where users can enter the title and content of their blog posts. </p>
