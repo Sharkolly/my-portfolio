@@ -31,7 +31,7 @@ const Intro = ({ MyPicture }) => {
     delay: 250,
     strings: [
       "ADESANYA-MOFEOLUWA",
-      "A FRONTEND-DEVELOPER </>",
+      "A FULLSTACK-DEVELOPER </>",
       "A UI/UX DESIGNER" ,
       "A DIGITAL-MARKETER",
       // "A ELECTRICAL ENGINEER",
@@ -90,7 +90,7 @@ const Intro = ({ MyPicture }) => {
               <TypewriterComponent options={animationText} />
             </motion.h1>
             <p>
-              Hello! I'm Adesanya Mofeoluwa Folajimi, a passionate and multidisciplinary professional with expertise in frontend development, UI/UX design, and Digital Marketing. I have a strong drive to create intuitive and visually appealing digital experiences that captivate users and drive business growth. I am a lifelong learner, constantly seeking knowledge and staying up-to-date with the latest trends in Frontend Development, UI/UX Design, and Digital Marketing. I am excited to contribute my skills and creativity to projects that make a positive impact and create meaningful connections with users
+              Hello! I'm Adesanya Mofeoluwa Folajimi, a passionate and multidisciplinary professional with expertise in fullstack development, UI/UX design, and Digital Marketing. I have a strong drive to create intuitive and visually appealing digital experiences that captivate users and drive business growth. I am a lifelong learner, constantly seeking knowledge and staying up-to-date with the latest trends in Full-stack Development, UI/UX Design, and Digital Marketing. I am excited to contribute my skills and creativity to projects that make a positive impact and create meaningful connections with users
             </p>
             <section className="CV">
               <button>
