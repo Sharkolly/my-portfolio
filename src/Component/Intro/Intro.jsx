@@ -94,7 +94,6 @@ const Intro = ({ MyPicture }) => {
             </p>
             <section className="CV">
               <button>
-                <a href="https://drive.google.com/file/d/1PvOKMxSlV_Y0ePs7taJo-ABbOZbul7x8/view?usp=drivesdk">DOWNLOAD CV</a>
                 <a href="/Adesanya Mofeoluwa (1).pdf" download='Adesanya Mofeoluwa Folajimi Resume'>DOWNLOAD CV</a>
               </button>
             </section>
