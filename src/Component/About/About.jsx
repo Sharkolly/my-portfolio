@@ -31,7 +31,7 @@ const About = ({ MyPicture }) => {
             <div className="hr"></div>
           </div>
           <div className="p">
-            <p>With a solid foundation in Frontend Development, I possess a deep understanding of HTML5, CSS3, SCSS, TAILWIND, JAVASCRIPT, REACT, VITE and UI/UX DESIGN allowing me to bring designs to life and create seamless user interfaces. I thrive on solving complex challenges and implementing responsive designs that function flawlessly acreoss various devices and platforms.
+            <p>With a solid foundation in Full-Stack Development, I possess a deep understanding of EXPRESSJS, TYPESCRIPT, SCSS, TAILWIND, MONGODB, REACT, NEXTJS and UI/UX DESIGN allowing me to bring designs to life and create seamless user interfaces. I thrive on solving complex challenges and implementing responsive designs that function flawlessly acreoss various devices and platforms.
             </p>
             <p>
               In addition to my technical skills, I have a keen eye for aesthetics and a passion for crafting exceptional user experiences. I specialize in UI/UX design, utilizing user-centered design principles to create visually striking interfaces that not only look great but alos enhance usability and engagement. I enjoy collaborating with cross-functional teams, conducting user research, and prototyping interactive designs to ensure an optimal user journey.
